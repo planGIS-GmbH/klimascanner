@@ -1,0 +1,8 @@
+<RCC>
+    <qresource prefix="/plugins/klimascanner/" >
+        <file>icon.png</file>
+        <file>icon_calculate.png</file>
+        <file>icon_picker.png</file>
+		<file>icon_about.png</file>
+    </qresource>
+</RCC>

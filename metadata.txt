@@ -1,0 +1,50 @@
+# This file contains metadata for your plugin.
+
+# This file should be included when you package your plugin.# Mandatory items:
+
+[general]
+name=KLIMASCANNER
+qgisMinimumVersion=3.24
+qgisMaximumVersion=4.99
+description=KLIMASCANNER für Hitze und Kaltluft- ein KI-basiertes Screening-Instrument
+version=2.2.0
+author=GEO-NET Umweltconsulting GmbH
+email=info@geo-net.de
+
+about=Mithilfe des QGIS-Plugins können „auf Knopfdruck“ die Auswirkungen von Anpassungs- und Stadtentwicklungsmaßnahmen auf das Stadtklima mit dem Themenkomplex Thermischer Komfort (Hitze und Kaltluft) quantitativ ersteingeschätzt werden. Als Grundlage für die KI (Künstliche Intelligenz) dienen Trainingsdatensätze aus hundert Millionen Datensätzen, auf die das Instrument aus den rd. 100 Stadt- und Regionalklimaanalysen, die GEO-NET in den letzten 5 Jahren mit dem Stadtklimamodell FITNAH-3D durchführte, zugreifen kann.
+
+#tracker=https://git.plangis.de
+#repository=https://git.plangis.de
+# End of mandatory metadata
+
+# Recommended items:
+
+hasProcessingProvider=no
+# Uncomment the following line and add your changelog:
+changelog= - Kompatibilität mit QGIS 4.0 / Qt6 (bei weiterhin bestehender Unterstützung für QGIS 3.24+ / Qt5)
+           - Umstellung auf numpy >= 2.0
+           - initiale Version 2.2.0
+
+# Tags are comma separated with spaces allowed
+tags=python
+
+homepage=https://www.geo-net.de
+category=Plugins
+icon=icon.png
+# experimental flag
+experimental=False
+
+# deprecated flag (applies to the whole plugin, not just a single version)
+deprecated=False
+
+# Since QGIS 3.8, a comma separated list of plugins to be installed
+# (or upgraded) can be specified.
+# Check the documentation for more information.
+#plugin_dependencies=rasterio
+
+Category of the plugin: Raster, Vector, Database or Web
+# category=
+
+# If the plugin can run on QGIS Server.
+server=False
+
